@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #97aabd;
+    background-image: url("bg4.jpg");
+    /* background-repeat: no-repeat;
+   // background-size: 150% 150%; */
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px auto;
+    background-color: #0f0e0e;
+}
+
+.box {
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    font-size: 32px;
+    text-align: center;
+    color: green;
+}
+
+
+table tr td:hover {
+    background-color: #185a3c;
+
+    cursor: pointer;
+}
+.form1 {
+    position: absolute;
+    top: 100px;
+    left:30%;
+    }
+
+    .form2 {
+        background-color: #d9e0dd;
+        width: 400px;
+        border-radius: 5px;
+        height: 200px;
+        position: absolute;
+        top: 200px;
+        left:60%;
+        }
+        
+    .win {
+        background-color: #095a37;
+        width: 400px;
+        border-radius: 5px;
+        position: absolute;
+        top: 310px;
+        left:60%;
+        color: orangered;
+        }
+.form3 {
+position: absolute;
+top: 200px;
+left:30%;
+}
+.form4 {
+    position: absolute;
+    top: 550px;
+    left:30%;
+    color: #185a3c;
+    }
